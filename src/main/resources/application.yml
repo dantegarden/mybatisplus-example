@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 8081
+  max-threads: 150
+  min-spare-threads: 30
+  servlet:
+    context-path: /cms
+
+jackson:
+  time-zone: GMT+8
+  date-format: yyyy-MM-dd HH:mm:ss
